@@ -1,0 +1,11 @@
+var First_name="Khyatisri";
+var Last_name=" Bandaru";
+var Full_name= First_name.concat(Last_name);
+console.log(Full_name);
+document.getElementById("ex1").innerHTML=Full_name;
+var Food=["Allu currey","Upma","Chiken dum biryani"];
+Food.push("Chilli paneer");
+Food.pop();
+Food.unshift("Chilli paneer");
+console.log(Food);
+document.getElementById("ex2").innerHTML=Food;
